@@ -1,0 +1,16 @@
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 30px;
+  font-size: 20px;
+  height: 30px;
+  padding: 0 15px;
+  border: 3px solid #1D92FF;
+  background-color: transparent;
+  color: #1D92FF;
+  border-radius: 15px;
+  &:focus {
+    outline: none;
+  }
+}

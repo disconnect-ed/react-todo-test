@@ -1,0 +1,16 @@
+
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #1D92FF;
+  border-radius: 15px;
+  font-size: 20px;
+  line-height: 30px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  &:focus {
+    outline: none;
+  }
+}

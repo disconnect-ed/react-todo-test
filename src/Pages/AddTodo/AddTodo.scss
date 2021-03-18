@@ -1,0 +1,9 @@
+
+.add {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &-title {
+    color: #1D92FF;
+  }
+}
