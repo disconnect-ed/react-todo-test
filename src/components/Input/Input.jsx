@@ -1,12 +1,12 @@
 import React from 'react';
 import './Input.scss'
 
-const Input = ({value, onChange, }) => {
+const Input = ({value, onChange, placeholder = 'Введите заголовок заметки'}) => {
     return (
         <input type="text"
-               placeholder='Введите заголовок заметки'
+               placeholder={placeholder}
                value={value}
-               onChange={onChange}/>
+               onChange={(e) => onChange(e.target.value)}/>
     );
 };
 

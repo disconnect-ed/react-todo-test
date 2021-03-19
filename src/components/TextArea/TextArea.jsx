@@ -4,7 +4,7 @@ import './TextArea.scss'
 const TextArea = ({value, onChange}) => {
     return (
         <textarea value={value}
-                  onChange={onChange}
+                  onChange={(e) => onChange(e.target.value)}
                   placeholder='Введите содержимое заметки'
         >
         </textarea>

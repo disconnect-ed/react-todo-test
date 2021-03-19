@@ -1,0 +1,24 @@
+
+.todo {
+  min-height: 50px;
+  width: 100%;
+  background-color: #1D92FF;
+  border-radius: 15px;
+  margin-top: 15px;
+  color: white;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-title {
+    margin: 0;
+  }
+  &-action {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 0;
+  }
+}
